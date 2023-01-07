@@ -11,12 +11,13 @@ body {
     max-width: 1440px;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 142px;
+    padding-bottom: 142px;
+    margin: 0 auto;
 }
 
 /* text decoration */
 
-.text__small {
+.text-small {
     margin: 0;
     font-weight: 300;
     font-size: 24px;
@@ -49,6 +50,8 @@ a {
 }
 
 .content__main__btn {
+    display: flex;
+    display: inline-block;
     margin-top: 86px;
 }
 
@@ -145,7 +148,7 @@ h2, h3 {
     text-align: center;
 }
 
-.text__margin {
+.text-margin {
     margin-bottom: 85px;
 }
 
@@ -202,12 +205,15 @@ h2, h3 {
     display: none;
 }
 
+
+
 @media (max-width:1200px) {
     .content__main {
         display: flex;
         flex-direction: column;
     }
-    
+  
+
     .content__main__desc {
         justify-content: center;
         margin-bottom: 85px;
@@ -339,6 +345,8 @@ h2, h3 {
     .content__main__btn {
         margin-top: 43px;
         text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     .btn__black {
